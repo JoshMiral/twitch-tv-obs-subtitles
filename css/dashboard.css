@@ -26,8 +26,13 @@ div#article div.content h2 {
     line-height: 42px;
 }
 
+@font-face {
+	font-family: roboto-regular;
+	src: url('roboto-regular.woff2'); 
+}
+
 body {
-    font-family: "San Francisco",
+    font-family: roboto-regular, "San Francisco",
         "Helvetica Neue", "Helvetica",
         Arial, Sans-Serif;
     padding: 0;
@@ -344,7 +349,7 @@ div#header div#subtitle-styles {
     flex: 1;
     display: flex;
     color: #fefef2;
-    font-family: "San Francisco",
+    font-family: roboto-regular, "San Francisco",
         "Helvetica Neue", "Helvetica",
         Arial, Sans-Serif;
     cursor: pointer;
