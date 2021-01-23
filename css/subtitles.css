@@ -12,12 +12,17 @@ div::-webkit-scrollbar {
     display: none;
 }
 
+@font-face {
+	font-family: roboto-regular;
+	src: url('roboto-regular.woff2'); 
+}
+
 div#subtitle {
     position: absolute;
     bottom: 75vh;
     left: 0px;
     background: transparent;
-    font-family: "San Francisco",
+    font-family: roboto-regular, "San Francisco",
         "Helvetica Neue", "Helvetica",
         Arial, Sans-Serif;
     font-size: calc( 3vh + 3vw );
